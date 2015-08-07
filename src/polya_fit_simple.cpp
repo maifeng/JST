@@ -68,7 +68,7 @@ int polya_fit_simple(int ** data, double * alpha, int _K, int _nSample) {
 	}
 
 	// simple fix point iteration
-	printf("Optimising parameters...\n");
+	//printf("Optimising parameters...\n");
 	for (i = 0; i < polya_iter; i++) {  // reset sum_alpha_old
 		sum_alpha_old = 0;
 		// update old_alpha after each iteration
@@ -116,7 +116,7 @@ int polya_fit_simple(int ** data, double * alpha, int _K, int _nSample) {
 
 	}
 
-	printf("Optimisation done!\n");
+	//printf("Optimisation done!\n");
 
     return 0;
 }
