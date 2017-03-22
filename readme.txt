@@ -51,6 +51,7 @@ E. References
 
 A. COMPILING
 
+cd Debug
 Type "make" in a shell.
 
 
